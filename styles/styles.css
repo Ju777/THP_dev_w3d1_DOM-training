@@ -27,17 +27,18 @@
 #gallery-container {
     display: grid;
     grid-template-columns: 1fr;
+    /* max-height: 100vh; */
 }
 
-#thunbnails-container{
+#thumbnails-container{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    padding: 50px;
+    /* padding: 50px; */
+    max-height: 100vh;
 }
 
-#picture-container{
-    display : grid;
-    grid-template-columns: 1fr 1fr 1fr;
+img {
+max-height: 100%;
 }
 
 .modal {
