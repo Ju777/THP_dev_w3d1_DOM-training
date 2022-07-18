@@ -1,0 +1,22 @@
+{
+  "name": "thp_dev_w3s1_dom-training",
+  "version": "1.0.0",
+  "description": "## The doday exercices' aims is to leanr how to manipulate the DOM and event listeners.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ju777/THP_dev_w3s1_DOM-training.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ju777/THP_dev_w3s1_DOM-training/issues"
+  },
+  "homepage": "https://github.com/Ju777/THP_dev_w3s1_DOM-training#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
