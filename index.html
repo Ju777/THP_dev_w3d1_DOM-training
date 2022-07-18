@@ -26,13 +26,99 @@
     </head>
 
     <body>
-        <div id="main_container" class="main_container">
-            <div id="image_container" class="image_container position-relative">
-                <div id="text_container" class="position-absolute top-50 start-50 translate-middle border border-3 border-white rounded-pill bg-white bg-opacity-25">
-                    <p class="text-black fs-1 p-5 fw-semi-bold">PRODUITS FRAIS ET BIO</p>
+
+        <div class="modal" id="modal">
+            <div class="modal-back"></div>
+                <div class="modal-container">
+                    <p>
+                        <a href="#" id="modal-close">&#10060;</a><br/>
+                        RESTES ET COMMANDES SINON TU MEURS !<br />
+                    </p>
                 </div>
             </div>
         </div>
+
+        <div id="main-container">
+            <div id="tabs-container">
+                <button id="btn-homepage" class="tablinks">ACCUEIL</button>
+                <button id="btn-menu" class="tablinks">MENU</button>
+                <button id="btn-gallery" class="tablinks">PHOTOS</button>
+            </div>
+
+            <div id="homepage-container" class="">
+                <div id="image-homepage-container" class="position-relative">
+                    <div id="title-homepage-container" class="position-absolute top-50 start-50 translate-middle border border-3 border-white rounded-pill bg-white bg-opacity-25">
+                        <p class="text-black fs-1 p-5 fw-semi-bold">PRODUITS FRAIS ET BIO</p>
+                    </div>
+                </div>
+            </div>
+
+            <div id="menu-container" class="d-none">
+                <div id="image-menu-container" class="position-relative">
+                    <div id="title-menu-container" class="position-absolute top-50 start-50 translate-middle border border-3 border-white rounded-pill bg-white bg-opacity-25">
+                        <p class="text-black fs-1 p-5 fw-semi-bold">MENU</p>
+                    </div>
+                </div>
+                <div id="text-menu-container">
+                    <div>
+                        <button id="btn-random" class="btn-info">MARRE DE CE MENU</button>
+                        <ul>
+                            <li>
+                                ENTREÉS :
+                                <ul>
+                                    <li>
+                                        Salade de choux norvégiens.
+                                    </li>
+                                    <li>
+                                        Pâté de sauterelles.
+                                    </li>
+                                </ul>
+                            <li>
+                                PLATS :
+                                <ul>
+                                    <li>
+                                        Tête de veau doux.
+                                    </li>
+                                    <li>
+                                        Langue de serpent.
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                DESSERTS :
+                                <ul>
+                                    <li>
+                                        Omelette glacée de pissenlits en copeaux.
+                                    </li>
+                                    <li>
+                                        Mousse de boudin péruvien aux olives.
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div id="gallery-container" class="d-none">
+                <div id="thunbnails-container">
+                    <img src="./images/01_gallery.jpg" alt="photo 1 de la gallerie" class="img-thumbnail">
+                    <img src="./images/02_gallery.jpg" alt="photo 1 de la gallerie" class="img-thumbnail">
+                    <img src="./images/03_gallery.jpg" alt="photo 1 de la gallerie" class="img-thumbnail">
+                    <img src="./images/04_gallery.jpg" alt="photo 1 de la gallerie" class="img-thumbnail">
+                    <img src="./images/05_gallery.jpg" alt="photo 1 de la gallerie" class="img-thumbnail">
+                    <img src="./images/06_gallery.jpg" alt="photo 1 de la gallerie" class="img-thumbnail">
+                    
+                </div>
+
+                <div id="picture-container">
+                    PHOTOS
+                </div>
+
+            </div>
+        </div>
+
+
     </body>
     <script src="./javascript/main.js"></script>
 </html>

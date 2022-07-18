@@ -1,10 +1,14 @@
-.main_container {
+#homepage-container {
     display: grid;
     grid-template-columns: 1fr;
 }
 
-.image_container{
-    /* border : 2px solid black; */
+#menu-container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#image-homepage-container{
     background-image : url("../images/restaurant.jpg");
     height : 750px;
     background-size : auto;
@@ -12,6 +16,49 @@
     background-position: center;
 }
 
-#text_container{
-    /* border : 1px solid white; */
+#image-menu-container{
+    background-image : url("../images/menu.jpg");
+    height : 750px;
+    background-size : auto;
+    background-repeat : no-repeat;
+    background-position: center;
 }
+
+#gallery-container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+#thunbnails-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 50px;
+}
+
+#picture-container{
+    display : grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.modal {
+    display: none;
+}
+
+.modal-back {
+position: fixed;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background: rgba( 0, 0, 0, .25 )
+}
+
+.modal-container {
+position: fixed;
+top: 50%;
+left: 50%;
+padding: 25px;
+background: white;
+transform: translate(-50%, -50%);
+}
+
