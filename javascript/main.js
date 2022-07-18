@@ -9,7 +9,7 @@ const getRandom = (data) => data[Math.floor(Math.random() * data.length)];
 const menu = `${getRandom(mainCourses)} ${getRandom(techniques)}, avec ${getRandom(sides)} ${getRandom(seasonings)}`
 // FIN
 
-// Systètme de navigation par onglets
+// Système de navigation par onglets
 const btnHomepage = document.getElementById('btn-homepage');
 const btnMenu = document.getElementById('btn-menu');
 const btnGalleryPage = document.getElementById('btn-gallery');
@@ -114,8 +114,4 @@ for(image of allImages) {
         draggedImage.setAttribute('src', tmp);
     });
 }
-
-
-
- 
 // FIN
