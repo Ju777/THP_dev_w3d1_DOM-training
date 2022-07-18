@@ -51,15 +51,14 @@ btnRandom.addEventListener('click', () => {
 const popup = document.getElementById('modal');
 const mainContainer = document.getElementById('main-container');
 
-// A REACTIVER A LA FIN DU PROJET
-// document.body.addEventListener('mouseleave', () =>{
-//     popup.style.display = 'block';
-//     mainContainer.style.filter = "grayscale(75%)";
-//     document.body.addEventListener('click', () => {
-//                 popup.style.display = 'none';
-//                 mainContainer.style.filter = "grayscale(0%)";  
-//     });
-// });
+document.body.addEventListener('mouseleave', () =>{
+    popup.style.display = 'block';
+    mainContainer.style.filter = "grayscale(75%)";
+    document.body.addEventListener('click', () => {
+                popup.style.display = 'none';
+                mainContainer.style.filter = "grayscale(0%)";  
+    });
+});
 
 const popupClosingLink = document.getElementById('modal-close');
 popupClosingLink.addEventListener('click', () =>{
