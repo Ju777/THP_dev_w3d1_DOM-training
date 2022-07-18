@@ -1,0 +1,17 @@
+.main_container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.image_container{
+    /* border : 2px solid black; */
+    background-image : url("../images/restaurant.jpg");
+    height : 750px;
+    background-size : auto;
+    background-repeat : no-repeat;
+    background-position: center;
+}
+
+#text_container{
+    /* border : 1px solid white; */
+}
